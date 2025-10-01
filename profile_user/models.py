@@ -17,4 +17,4 @@ class profile_user_model(models.Model):
     def __str__(self):
         return f"username : {self.user}   /   email :  {self.email}"
     
-    
+
