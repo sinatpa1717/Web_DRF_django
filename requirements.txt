@@ -1,0 +1,9 @@
+asgiref==3.9.2
+click==8.3.0
+Django==5.2.6
+djangorestframework==3.16.1
+pillow==11.3.0
+setuptools==80.9.0
+sqlparse==0.5.3
+svgwrite==1.4.3
+Tree==0.2.4
