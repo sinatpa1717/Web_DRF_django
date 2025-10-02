@@ -1,6 +1,5 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
-from profile_user.models import profile_user_model
 from rest_framework.authtoken.views import Token
 
 class serial_signup(serializers.ModelSerializer):
@@ -25,5 +24,4 @@ class serial_signup(serializers.ModelSerializer):
         )
         
         Token.objects.create(user = user)
-        profile_user_model.objects.create(user = user , email = user.email)
         return user
